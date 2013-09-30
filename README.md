@@ -6,11 +6,15 @@ ___
 返校毕设结束后和入职前的空档期，利用业余时间看了一些Android开发的资料，了解到Webview这个封装了webkit的组件，一个idea，一个app，一个不入流的区域三等奖，这就是Magic Board.   
 ____
 ## Magic Board's screenshots
-#### home page
+##### homepage
 ![img1](http://zuojie.github.io/demo/magic_board_1.jpg)
+##### subpage
 ![img2](http://zuojie.github.io/demo/magic_board_2.png)
+##### fullscreen
 ![img3](http://zuojie.github.io/demo/magic_board_3.png)
+##### menu
 ![img4](http://zuojie.github.io/demo/magic_board_4.png)
+##### ad block
 ![img5](http://zuojie.github.io/demo/magic_board_5.png)
 ![img6](http://zuojie.github.io/demo/magic_board_6.png)
 ![img7](http://zuojie.github.io/demo/magic_board_7.png)
