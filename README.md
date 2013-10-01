@@ -1,11 +1,15 @@
-**This is really a cool project**! It's my graduation project;   
-Based on *MVC*, *Django* & *Python*;   
-Support information customization;   
-Back end spider retrieves information（Programming Contest, Goods on sale and discount, Job Presentation）on the Internet periodically, then push it to customer;     
-____     
-这是一个很有意思的项目！来自我的本科毕设课题；  
-KKT是一个基于MVC的信息定制系统，后端信息检索系统（爬虫）使用python，网站使用Django搭建；   
-支持用户自定义感兴趣的信息，用户只需要提供自己的兴趣信息，其他不需关心（比如某款手机的打折信息等，用户不需要制定商家）；  
-后端爬虫代码周期性从网络检索目标信息（比赛信息，在售商品打折信息，企业宣讲会信息），然后进行过滤提取，将符合用户定制需求的信息以短信星矢推送给用户；    
+## Introduction
+When I was intern at tencent, my job is been mataining and updating the webkit used in QQBrowser 6.   
+And, out of interests of what other things webkit can do, after I returned to school, I made an app based on Android Webview widget, which wrapped webkit. It's *Magic Board*. With which, by the way, I got the regional third place in Google Android Development 2012.   
+___   
+当我在腾讯研究院实习时，主要跟随导师负责QQBrowser 6 webkit内核的功能维护和升级工作。   
+后来返校后毕设结束后和入职前的空档期，利用业务时间看了一些Android开发的资料，了解到Webview这个封装了webkit的组件，一个idea，一个app，一个不入流的区域三等奖，这就是Magic Board.   
 ____
-[demo](http://zuojie.github.io/kkt/kkt_index.html "KKT")
+## App's screenshots
+![img1](http://zuojie.github.io/demo/magic_board_1.jpg)
+![img2](http://zuojie.github.io/demo/magic_board_2.jpg)
+![img3](http://zuojie.github.io/demo/magic_board_3.jpg)
+![img4](http://zuojie.github.io/demo/magic_board_4.jpg)
+![img5](http://zuojie.github.io/demo/magic_board_5.jpg)
+![img6](http://zuojie.github.io/demo/magic_board_6.jpg)
+![img7](http://zuojie.github.io/demo/magic_board_7.jpg)
