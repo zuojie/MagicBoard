@@ -5,7 +5,8 @@ ___
 腾讯研究院实习时，主要跟随导师负责QQBrowser 6 webkit内核的功能维护和升级工作。   
 返校毕设结束后和入职前的空档期，利用业余时间看了一些Android开发的资料，了解到Webview这个封装了webkit的组件，一个idea，一个app，一个不入流的区域三等奖，这就是Magic Board.   
 ____
-## App's screenshots
+## Magic Board's screenshots
+#### home page
 ![img1](http://zuojie.github.io/demo/magic_board_1.jpg)
 ![img2](http://zuojie.github.io/demo/magic_board_2.png)
 ![img3](http://zuojie.github.io/demo/magic_board_3.png)
