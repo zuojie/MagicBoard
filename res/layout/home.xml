@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical" >
+   <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:stretchColumns="*" >
+		<TableRow
+			android:id="@+id/tr1" 
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+			<ImageView  	    
+			    android:id="@+id/sns"
+			   	android:scaleType="fitXY"
+			   	android:layout_margin="4px"
+		    />
+		    <ImageView
+			    android:id="@+id/bbs"
+			   	android:scaleType="fitXY"
+			   	android:layout_margin="4px"
+		    />
+		</TableRow>
+		<TableRow
+			android:id="@+id/tr3" 
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent" >
+			<ImageView  	    
+			    android:id="@+id/it"
+			   	android:scaleType="fitXY"
+			   	android:layout_margin="4px"
+		    />
+		    <ImageView  	    
+			    android:id="@+id/life"
+			   	android:scaleType="fitXY"
+			   	android:layout_margin="4px"
+		    />
+		</TableRow>
+		<TableRow
+			android:id="@+id/tr2" 
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent" >
+			<ImageView
+			    android:id="@+id/news"
+				android:layout_span="2" 
+			   	android:scaleType="fitXY"
+			   	android:layout_margin="4px"
+		    />
+		</TableRow>
+		<TableRow
+			android:id="@+id/tr5" 
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+			<ImageView  	    
+			    android:id="@+id/tech"
+			   	android:scaleType="fitXY"
+			   	android:layout_margin="4px"
+		    />
+		    <ImageView
+			    android:id="@+id/shopping"
+			   	android:scaleType="fitXY"
+			   	android:layout_margin="4px"
+		    />
+		</TableRow>
+	</TableLayout>
+</ScrollView>

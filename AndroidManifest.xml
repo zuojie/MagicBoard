@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="org.pzjay.demo"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="7" />
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".MagicBoard"
+                  android:label="@string/app_name"
+				  android:configChanges="orientation|keyboardHidden|navigation"
+                  android:screenOrientation="portrait" >
+                  <!--  android:theme="@style/test"--> 
+        </activity>
+         
+        <activity android:name=".Splash"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+		<activity android:name=".MainActivity" android:label="@string/app_name"
+            	  android:theme="@android:style/Theme.NoTitleBar" 
+            	  android:screenOrientation="portrait" >
+        </activity>
+ 		<activity android:name=".sites.SiteActivity" android:label="@string/app_name"
+            	  android:theme="@android:style/Theme.NoTitleBar"
+            	  android:screenOrientation="portrait" >
+        </activity>
+ 		<activity android:name=".sites.RenRen" android:label="@string/app_name"
+            	  android:theme="@android:style/Theme.NoTitleBar"
+            	  android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".sites.WeiBo" android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".sites.TQQ" android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".sites.QZONE" android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".sites.PengYou" android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".sites.DouBan" android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".sites.CnBeta" android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".sites.GanJi" android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".sites.GeekPark" android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".sites.GuoKr" android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".sites.HuXiu" android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".sites.KR36" android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".sites.Mitbbs" android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".sites.Mop" android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".sites.FtCn" android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".sites.Zread" android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".sites.QiuBai" android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".sites.QQNews" android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".sites.Science" android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".sites.SinaFinance" android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".sites.TianYa" android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".sites.TongCheng58" android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".sites.LaShou" android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".sites.WallStJournal" android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".sites.TieBa" android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".sites.JanDan" android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".sites.Engadget" android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".sites.SongShu" android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  android:screenOrientation="portrait" >
+        </activity>
+         <activity android:name=".sites.ChouTi" android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  android:screenOrientation="portrait" >
+        </activity>        
+         <activity android:name=".sites.PenTi" android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  android:screenOrientation="portrait" >
+        </activity>
+         <activity android:name=".sites.NuoMi" android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  android:screenOrientation="portrait" >
+        </activity>
+         <activity android:name=".sites.LaShou" android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  android:screenOrientation="portrait" >
+        </activity>
+         <activity android:name=".sites.MoGuJie" android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  android:screenOrientation="portrait" >
+        </activity>
+         <activity android:name=".sites.TieXue" android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  android:screenOrientation="portrait" >
+        </activity>
+         <activity android:name=".sites.TaoBao" android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  android:screenOrientation="portrait" >
+        </activity>
+        
+    </application>
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.HARDWARE_TEST" />
+
+	<supports-screens android:largeScreens="true"
+       android:normalScreens="true" 
+       android:anyDensity="true"
+       android:smallScreens="true">
+    </supports-screens>
+</manifest>

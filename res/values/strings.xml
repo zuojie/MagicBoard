@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MagicBoard!</string>
+    
+    <string name="app_name">Magic Board</string>
+    <string name="wording">发现精彩，尽在Magic Board</string>
+    
+    <style name="CustomWindowTitleBackground">
+       <item name="android:background">#565656</item>
+	</style>
+
+	<style name="test" parent="android:Theme">
+    	<!--  <item name="android:windowTitleSize">50dp</item> -->
+     	<item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
+	</style>
+</resources>
